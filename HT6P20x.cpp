@@ -5,7 +5,7 @@
 #define EXT_INT_GPIO_NUM 27 //ETERNAL INTERRUPT INPUT, MODIFY THIS ACCORDINGLY WITH YOUR HARDWARE...
 #define REQ_CONSEC_MSGS 3 //QUANTITY OF CONSECUTIVE MESSAGES REQUIRED TO VALIDATE A REMOTE COMMAND
 /**
- * these values may change depending on the HT6P20 oscillantion frequency set by the external resistor..
+ * these values may change depending on the HT6P20 oscillation frequency set by the external resistor..
  * For a 2.1kHz oscillating HT6P20x I got approximately the following values (in tens of microseconds)....
 */
 #define PHYS_BIT_PER_TYP 51
