@@ -9,10 +9,10 @@ void setup() {
 
 void loop() {
 
-  if(success) {
-    success = false;
-    Serial.printf("code: %x.\r\n",recvCode);
-    Serial.printf("key: %x.\r\n",recvKey);
-  }
+	if(success) {
+		success = false;
+		Serial.printf("code: %x.\r\n",recvCode);
+		Serial.printf("key: %x.\r\n",recvKey);
+	}
   
 }
